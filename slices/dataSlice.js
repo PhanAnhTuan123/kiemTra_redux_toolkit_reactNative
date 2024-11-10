@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const API_URL = "https://6719d7c4acf9aa94f6a803b0.mockapi.io/bike";
+const API_URL = "https://670b3e5dac6860a6c2cb864f.mockapi.io/recycle";
 
 export const fetchData = createAsyncThunk("data/fetchData", async () => {
   const response = await axios.get(API_URL);
